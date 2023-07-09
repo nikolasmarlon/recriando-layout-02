@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2C2B3D;
+    color: #C2C2C2;
+}
+
+.container {
+    max-width: 1083px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+header {
+    
+    padding-top: 71px;
+    background-color: blue;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 64px;
+    list-style: none;
+
+}
+
+main {
+    display: flex;
+    gap: 82px;
+    padding: 101px 0 157px;
+}
