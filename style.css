@@ -6,24 +6,30 @@
 body{
     background-color: #2C2B3D;
     color: #C2C2C2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 .container {
-    max-width: 1083px;
-    background-color: red;
+    max-width: 1083px;   
+    display: flex;
+    align-items: center;
     margin: 0 auto;
 }
 
-header {
-    
+header {   
     padding-top: 71px;
-    background-color: blue;
+    
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1083px;
+    margin: 0 auto;
 }
 
 header nav ul{
@@ -37,4 +43,44 @@ main {
     display: flex;
     gap: 82px;
     padding: 101px 0 157px;
+}
+
+main h1 {
+    font-size: 36px;
+    text-align: center;
+    line-height: 40px;
+}
+
+main p{
+    max-width: 500px;    
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+footer{
+    min-height: 78px;
+    
+    text-align: center;
+}
+footer hr{
+    width: 568px;
+    margin: 0 auto;
+    margin-bottom: 27px;
+}
+
+
+
+#padlock {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
 }
